@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Moderustic:wght@300..800&family=Nova+Square&family=Patrick+Hand&display=swap');
+
+
+body {
+   background-image: url("plusbkg1.png");
+   background-size: 3vw;
+   background-repeat: repeat;
+}
+
+h1 {
+   font-size: 4vw;
+   font-family: "Patrick Hand", cursive;
+   text-align: center;
+}
+
+#feed {
+   background-color: #FFFDF0;
+   display: flex;
+   justify-content: center;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
+   /* Centers horizontally */
+   width: 39vw;
+   /* Adjust width as needed */
+   height: 80vh;
+   /* Makes it stretch from top to bottom */
+}
+
+#messageboard {
+   position: absolute;
+   font-family: 'Metal Mania', cursive;
+   color: white;
+   bottom: 0;
+}
