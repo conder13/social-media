@@ -23,13 +23,21 @@ h1 {
    /* Centers horizontally */
    width: 39vw;
    /* Adjust width as needed */
-   height: 80vh;
+   height: 70vh;
    /* Makes it stretch from top to bottom */
+   text-align: center;
 }
 
 #messageboard {
    position: absolute;
    font-family: 'Metal Mania', cursive;
    color: white;
-   bottom: 0;
+   bottom: 10;
+   list-style-type: none;
+   display: inline-block;
+}
+
+li {
+   color: black;
+   font-size: 15;
 }

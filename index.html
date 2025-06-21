@@ -8,16 +8,21 @@
 <body>
 
    <h1>conder.chat</h1>
+   <form id="usernamecontainer">
+      <input id="username" type="text" maxlength="15" value="AnonymousCondor">
+      <button type="submit">Change</button>
+   </form>
    <div id="feed">
 
       <table>
          <tr>
             <td id="chatcolumn" style="vertical-align:top">
-               <form id="chat">
+               <form id="messagecontainer">
                   <input id="m" type="text" maxlength="40">
                   <button type="submit">Send</button>
                </form>
-               <ul id="messageboard"></ul>
+               <ul id="messageboard">
+               </ul>
             </td>
             <td>
    </div>
